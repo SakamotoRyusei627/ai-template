@@ -24,7 +24,7 @@ AI は以下の順番で参照すること。
 2. TASKS.md
 3. DECISIONS.md
 4. CONTEXT.md
-5. docs/
+5. docs/**.md
 
 ## 過去のタスク
 - `archive`を参照してください
