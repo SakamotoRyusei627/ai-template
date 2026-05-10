@@ -1,0 +1,58 @@
+# conventions.md
+
+> コーディング規約。
+
+## AI向け記入ルール
+- 既存規約を優先
+- 新規ルール追加時は理由を書く
+- 命名ルール違反を増やさない
+
+最終更新日: `<YYYY-MM-DD>`
+更新者: `<name | AI>`
+
+---
+
+# 命名規則
+
+## Variables
+- `<rule>`
+
+## Functions
+- `<rule>`
+
+## Components
+- `<rule>`
+
+---
+
+# ディレクトリ規約
+
+- `<dir>`:
+- `<dir>`:
+
+---
+
+# 禁止事項
+
+- `<bad practice>`
+- `<bad practice>`
+
+---
+
+# テスト規約
+
+- `<rule>`
+
+---
+
+# エラーハンドリング
+
+- `<rule>`
+
+---
+
+# Logging
+
+- `<rule>`
+
+---

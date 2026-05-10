@@ -1,0 +1,147 @@
+# api.md
+
+> API仕様書。
+> AI と開発者が API の責務・契約・設計思想を共有するためのドキュメント。
+
+## AI向け記入ルール
+- 実装されていない API を確定情報として書かない
+- request/response は推測で埋めない
+- breaking change は明記する
+- path / method / auth requirement を必ず記載する
+- example は実データではなくサンプルを使用する
+- 機密情報を書かない
+
+最終更新日: `<YYYY-MM-DD>`
+更新者: `<name | AI>`
+
+---
+
+# API Overview
+
+- Base URL: `<url>`
+- API Style: `<REST / GraphQL / RPC>`
+- Auth Method: `<JWT / Session / API Key>`
+- Versioning: `<v1/v2/etc>`
+- Rate Limit: `<rule>`
+- Timeout: `<rule>`
+
+---
+
+# Common Rules
+
+## Response Format
+
+```json
+{
+  "data": {},
+  "error": null
+}
+```
+
+---
+
+## Error Format
+
+```json
+{
+  "error": {
+    "code": "ERROR_CODE",
+    "message": "message"
+  }
+}
+```
+
+---
+
+## Status Code Policy
+
+| Status | Meaning |
+|---|---|
+| 200 | Success |
+| 400 | Validation Error |
+| 401 | Unauthorized |
+| 403 | Forbidden |
+| 404 | Not Found |
+| 500 | Internal Server Error |
+
+---
+
+# Endpoint Template
+
+## `<METHOD> <path>`
+
+### Purpose
+`<何をするAPIか>`
+
+### Authentication
+- Required / Not Required
+
+### Request
+
+#### Path Params
+
+| Name | Type | Required | Description |
+|---|---|---|---|
+| `<name>` | `<type>` | yes/no | `<description>` |
+
+#### Query Params
+
+| Name | Type | Required | Description |
+|---|---|---|---|
+| `<name>` | `<type>` | yes/no | `<description>` |
+
+#### Body
+
+```json
+{
+  "<field>": "<value>"
+}
+```
+
+---
+
+### Response
+
+```json
+{
+  "<field>": "<value>"
+}
+```
+
+---
+
+### Validation Rules
+
+- `<rule>`
+- `<rule>`
+
+---
+
+### Business Rules
+
+- `<rule>`
+- `<rule>`
+
+---
+
+### Error Cases
+
+| Code | Meaning |
+|---|---|
+| `<code>` | `<description>` |
+
+---
+
+### Related Files
+
+- `<path>`
+- `<path>`
+
+---
+
+# TODO
+
+- [ ] `<undocumented API>`
+- [ ] `<migration needed>`
+
+---
