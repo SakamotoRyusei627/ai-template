@@ -150,7 +150,7 @@ AI は必ず以下順番で実施すること。
 AI は必要に応じて以下を更新する。
 
 1. README.md
-2. TASKS.md
+2. TASKS.md ← ここは必ず完了したタスクにチェックを入れること。
 3. DECISIONS.md
 4. CONTEXT.md
 5. docs/
