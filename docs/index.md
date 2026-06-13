@@ -23,6 +23,8 @@
 | XSS / CSP / HTMLサニタイズ / 秘密情報 | [docs/security/index.md](./security/index.md) |
 | 過去の技術判断 | [docs/decisions/index.md](./decisions/index.md) |
 | mdの書き方 | [docs/_templates/doc-template.md](./_templates/doc-template.md) |
+| タスク運用 / TDD / 実行コマンド | [AGENT_GUIDE.md](../AGENT_GUIDE.md) |
+| タスク検討メモ / 要確認事項 | [NOTES.md](../NOTES.md) |
 
 ## 読み方ルール
 
@@ -30,6 +32,8 @@
 - 各カテゴリ配下の詳細 `md` は、必要になったものだけ読む
 - 関係ないカテゴリの `md` をまとめ読みしない
 - 実装前に、作業対象に関係する `docs` だけ確認する
+- 実装指示がある場合は `TASKS.md` と `AGENT_GUIDE.md` も確認する
+- タスク化前の論点整理が必要なら `NOTES.md` を確認する
 - 実装後、仕様・設計・コマンド・注意点が変わった場合だけ `docs` を更新する
 - 単なる作業ログは `docs` に残さない
 - 古くなった記述を見つけたら、追記ではなく修正する
