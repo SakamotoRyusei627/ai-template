@@ -25,6 +25,7 @@
 | mdの書き方 | [docs/_templates/doc-template.md](./_templates/doc-template.md) |
 | タスク運用 / TDD / 実行コマンド | [AGENT_GUIDE.md](../AGENT_GUIDE.md) |
 | タスク検討メモ / 要確認事項 | [NOTES.md](../NOTES.md) |
+| スコープ外の改善提案 | [PROPOSALS.md](../PROPOSALS.md) |
 
 ## 読み方ルール
 
@@ -34,6 +35,7 @@
 - 実装前に、作業対象に関係する `docs` だけ確認する
 - 実装指示がある場合は `TASKS.md` と `AGENT_GUIDE.md` も確認する
 - タスク化前の論点整理が必要なら `NOTES.md` を確認する
+- 実装中に見送られた改善提案を確認したいなら `PROPOSALS.md` を確認する
 - 実装後、仕様・設計・コマンド・注意点が変わった場合だけ `docs` を更新する
 - 単なる作業ログは `docs` に残さない
 - 古くなった記述を見つけたら、追記ではなく修正する
