@@ -1,9 +1,10 @@
-# CLAUDE.md
+# Claude Code向け入口
 
-> このファイルは PROMPT.md へ委譲します。
-> このファイルは AIによる編集を禁止します。
-> 実装メモ等は`PROMPT.md`に記載してください。
+このファイルは Claude Code 向けの入口です。
 
-以下を最優先で参照してください。
+最初に [AGENT_GUIDE.md](./AGENT_GUIDE.md) を読み、その指示に従ってください。
 
-- PROMPT.md
+## 補足
+
+- 次に読む共通入口は [docs/index.md](./docs/index.md) です
+- Claude Code 固有の追加指示がない限り、運用ルールは `AGENT_GUIDE.md` を正本とします
